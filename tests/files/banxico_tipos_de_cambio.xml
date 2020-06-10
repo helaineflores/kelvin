@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompactData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message"
+xmlns:bm="http://www.banxico.org.mx/structure/key_families/dgie/sie/series/compact"
+xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message SDMXMessage.xsd
+http://www.banxico.org.mx/structure/key_families/dgie/sie/series/compact BANXICO_DGIE_SIE_Compact.xsd
+http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact SDMXCompactData.xsd" >
+	<Header>
+		<ID>TIPOSDECAMBIO</ID>
+		<Test>false</Test>
+		<Truncated>false</Truncated>
+		<Name xml:lang="sp">Tipos de Cambio</Name>
+		<Prepared>2019-04-01 12:19:43.256</Prepared>
+		<Sender id="BANXICO">
+			<Name xml:lang="sp">Banco de México</Name>
+			<Contact>
+			<Name xml:lang="sp">Subgerencia de Desarrollo de Sistemas</Name>
+			<Telephone>(01 55)52372678</Telephone>
+			</Contact>
+		</Sender>
+		<DataSetAction>Update</DataSetAction>
+		<Extracted>2019-04-01 12:19:43.256</Extracted>
+	</Header>
+	<bm:DataSet>
+		<bm:SiblingGroup BANXICO_FREQ="Dia" TIME_FORMAT="P1D"/>
+		<bm:Series TITULO="Euro" IDSERIE="SF46410" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="Peso">
+			<bm:Obs TIME_PERIOD="2019-04-01" OBS_VALUE="21.5835"/>
+		</bm:Series>
+		<bm:Series TITULO="Dólar Canadiense" IDSERIE="SF60632" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="Peso">
+			<bm:Obs TIME_PERIOD="2019-04-01" OBS_VALUE="N/E"/>
+		</bm:Series>
+		<bm:Series TITULO="Dólar USA" IDSERIE="SF43718" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="PesoxDoll">
+			<bm:Obs TIME_PERIOD="2019-04-01" OBS_VALUE="19.2169"/>
+		</bm:Series>
+		<bm:Series TITULO="Libra" IDSERIE="SF46407" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="Peso">
+			<bm:Obs TIME_PERIOD="2019-04-01" OBS_VALUE="25.1837"/>
+		</bm:Series>
+		<bm:Series TITULO="Yen" IDSERIE="SF46406" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="Peso">
+			<bm:Obs TIME_PERIOD="2019-04-01" OBS_VALUE="0.1732"/>
+		</bm:Series>
+		<bm:Series TITULO="Dólar USA" IDSERIE="SF60653" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="PesoxDoll">
+			<bm:Obs TIME_PERIOD="2019-04-01" OBS_VALUE="19.3793"/>
+		</bm:Series>
+	</bm:DataSet>
+</CompactData>

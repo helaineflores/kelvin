@@ -1,0 +1,5 @@
+environment: ENVIRONMENT_FOR_TESTING
+database:
+    connection_string: CONNECTION_STRING_FOR_TESTING
+http_logging:
+    url: URL_FOR_TESTING
